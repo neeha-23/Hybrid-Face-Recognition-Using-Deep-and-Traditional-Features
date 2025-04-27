@@ -1,0 +1,12 @@
+torch>=2.0             # Deep learning (FaceNet, Autoencoder)
+torchvision>=0.15      # Preprocessing for FaceNet
+facenet-pytorch>=2.5.2 # Pretrained FaceNet embeddings
+scikit-learn>=1.2      # Classifiers (SVM, RF, XGBoost interface), t-SNE, evaluation metrics
+xgboost>=1.7           # Gradient boosting classifier
+scikit-image>=0.19     # LBP, HOG feature extraction
+opencv-python>=4.7     # Image reading, resizing (OpenCV)
+Pillow>=9.4            # Image format handling (PIL)
+numpy>=1.24            # Array operations
+matplotlib>=3.6        # Visualization (plots, ROC, PR curves)
+seaborn>=0.12          # Enhanced visualizations
+joblib>=1.2            # Saving models (.pkl files)
