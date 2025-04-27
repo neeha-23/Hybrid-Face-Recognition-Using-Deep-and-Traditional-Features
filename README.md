@@ -16,6 +16,12 @@ Visualization techniques such as t-SNE clustering, ROC and PR curves, and autoen
 This project requires a combination of deep learning, machine learning, and image processing libraries.
 All essential packages — including PyTorch for model development, scikit-learn and XGBoost for classification, scikit-image and OpenCV for feature extraction, and matplotlib/seaborn for visualization — are listed in the requirements.txt file.
 Please install these dependencies before running the notebook to ensure smooth execution and reproducibility.
+### When setting up your environment, after putting this file in your project folder, run:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
 
 ## Project Structure
 notebooks/HybridFaceRecognition_IA.ipynb – Main implementation notebook
